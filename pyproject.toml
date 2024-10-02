@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wav2vec2 distillation"
+version = "0.1.0"
+description = ""
+authors = ["James Kim <hashd2035@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "*"
+numpy = "*"
+torch = "^2.0"
+pytorch-lightning = "^2.0"
+torchvision = "*"
+torchaudio = "^2.0"
+transformers = "*"
+librosa = "*"
+tqdm = "*"
+scikit-learn = "*"
